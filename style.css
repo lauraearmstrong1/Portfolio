@@ -1,0 +1,13 @@
+#bg { 
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#name {
+    font-family: 'Princess Sofia', cursive;
+    color: black;
+    text-align: center;
+    background: transparent;
+}

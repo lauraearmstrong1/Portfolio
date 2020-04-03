@@ -1,13 +1,40 @@
-#bg { 
+html { 
+    background-image: url(images/brick.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 
+body {
+    background-color: transparent;
+    }
+
 #name {
     font-family: 'Princess Sofia', cursive;
+    font-size: 50px;
+    margin-left: 2rem;
+}
+
+.fab {
+    color: white;
+}
+
+#list {
+    font-family: 'Princess Sofia', cursive;
     color: black;
-    text-align: center;
-    background: transparent;
+    font-size: 40px;
+    margin-left: 6rem;
+}
+
+.about {
+    border-style: solid;
+    border-color: black;
+    /* background-color: white  !important; */
+}
+
+#me {
+    font-family: 'Princess Sofia', cursive;
+    color: black;
+    font-size: 24px;
 }

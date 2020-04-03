@@ -13,57 +13,70 @@
 </head>
 
 <body>
-  <nav class="navbar navbar.brand navbar.expand bg-dark">
-    <span class="navbar-text text-white">
-      <a id="name">laura armstrong</a>
-    </span>
-    <span>
-      <a href="https://github.com/lauraearmstrong1">
-        <button class="btn btn-lg btn-default">
-          <span class="fa fa-github fa-lg" style="color: white;"></span>
-        </button>
-      </a>
-      <a href="https://www.linkedin.com/in/laura-armstrong-90bb0a86/">
-        <button class="btn btn-lg btn-default">
-          <span class="fa fa-linkedin fa-lg" style="color: white;"></span>
-        </button>
-      </a>
-      <a href=" https://twitter.com/learmstrong1?lang=en">
-        <button class="btn btn-lg btn-default">
-          <span class="fa fa-twitter fa-lg" style="color: white;"></span>
-        </button>
-      </a>
-    </span>
-  </nav>
+  <div class="row">
+    <div class="col-sm-12">
+      <nav class="navbar bg-dark ">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 d-flex justify-content-center">
+          <span class="navbar-text text-white ">
+            <a id="name">laura armstrong</a>
+          </span>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end">
+          <span>
+            <a href="https://github.com/lauraearmstrong1">
+              <button class="btn">
+                <span class="fa fa-github fa-lg" style="color: white;"></span>
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/laura-armstrong-90bb0a86/">
+              <button class="btn btn-lg btn-default">
+                <span class="fa fa-linkedin fa-lg" style="color: white;"></span>
+              </button>
+            </a>
+            <a href=" https://twitter.com/learmstrong1?lang=en">
+              <button class="btn btn-lg btn-default">
+                <span class="fa fa-twitter fa-lg" style="color: white;"></span>
+              </button>
+            </a>
+          </span>
+        </div>
+      </nav>
+    </div>
+  </div>
   <br>
   <!--left sidebar nav-->
-  <div class="col-sm-12 list">
-    <div class="row">
-      <div class="col-sm-3">
-        <a href="portfolio.html" id="list">portfolio</a><br>
-        <a href="contact.html" id="list">contact</a>
-      </div>
+  <div class="row">
+    <div class="col-sm-3 list">
+      <a href="portfolio.html" id="list">portfolio</a><br>
+      <a href="contact.html" id="list">contact</a>
     </div>
   </div>
   <br><br>
-  <div class="container about">
-    <div class="row ">
-    <div class="col-sm-4">
-      
-        <p class="text-center" id="me">about me</p>
-      
+
+  <!--about box-->
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 container about">
+      <div class="row d-flex justify-content-center ">
+        <p id="me">about me</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 d-flex justify-content-center">
+          <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">pic1</li>
+              <li class="list-group-item">pic2</li> 
+              <li class="list-group-item">pic3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <p class="lead">Text area</p>
+        </div>
       </div>
     </div>
+    <div class="col-sm-2"></div>
   </div>
-
-
-
-
-
-
-
-
-
 </body>
-
 </html>

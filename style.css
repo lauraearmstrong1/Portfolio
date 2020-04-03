@@ -22,19 +22,23 @@ body {
 
 #list {
     font-family: 'Princess Sofia', cursive;
-    color: black;
+    color:#292b2c;
     font-size: 40px;
     margin-left: 6rem;
 }
 
 .about {
     border-style: solid;
-    border-color: black;
-    /* background-color: white  !important; */
+    border-color: #292b2c;
+    background-color: transparent;
 }
 
 #me {
     font-family: 'Princess Sofia', cursive;
     color: black;
     font-size: 24px;
+}
+
+.btn {
+    font-size: 30px;
 }

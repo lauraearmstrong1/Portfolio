@@ -9,6 +9,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Princess+Sofia&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -16,9 +17,20 @@
   <div class="row">
     <div class="col-sm-12">
       <nav class="navbar bg-dark ">
-        <div class="col-sm-4"></div>
+
+        <div class="col-sm-4">
+            <div class="container">
+              <div class="span d-flex justify-content-start">
+                <a href="portfolio.html" id="list">portfolio </a> 
+                <a id="list"> / </a>
+        
+                <a href="contact.html" id="list"> contact</a>
+              </div>
+          </div>
+          </div>
+
         <div class="col-sm-4 d-flex justify-content-center">
-          <span class="navbar-text text-white ">
+          <span class="navbar-text text-white">
             <a id="name">laura armstrong</a>
           </span>
         </div>
@@ -45,38 +57,29 @@
     </div>
   </div>
   <br>
-  <!--left sidebar nav-->
-  <div class="row">
-    <div class="col-sm-3 list">
-      <a href="portfolio.html" id="list">portfolio</a><br>
-      <a href="contact.html" id="list">contact</a>
-    </div>
-  </div>
-  <br><br>
 
   <!--about box-->
   <div class="row">
     <div class="col-sm-2"></div>
-    <div class="col-sm-8 container about">
-      <div class="row d-flex justify-content-center ">
-        <p id="me">about me</p>
-      </div>
+    <div class="col-sm-8 container px-3 pt-3 pb-3 about">
       <div class="row">
-        <div class="col-sm-4 d-flex justify-content-center">
-          <div class="card">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">pic1</li>
-              <li class="list-group-item">pic2</li> 
-              <li class="list-group-item">pic3</li>
-            </ul>
+        <div class="col-sm-12">
+          <div class="row d-flex justify-content-center pl-2 pr-2">
+            <p class="bio">I am a full-stack boot camp student at UNC-Charlotte. I have experience using html, CSS, JavaScript, JQuery, and Node.js. I have an undergraduate degree in mechanical engineering and a master's degree in teaching. My dream job is one in which I can combine my love for development and tech with my teaching and coaching background. In my free time, I love being outside running, biking, or hiking or inside reading or lisening to music and podcasts. I also really enjoy spending time with friends, family, and my pup, Spencer.</p>
+            </p>
           </div>
         </div>
-        <div class="col-sm-8">
-          <p class="lead">Text area</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 d-flex justify-content-between">
+          <img src="images/ID card.jpg" alt="me" class="pic">
+          <img src="images/Grand-Canyon.jpg" alt="grand-canyon" class="pic">
+          <img src="images/Spencer.jpg" alt="dog" class="pic">
         </div>
       </div>
     </div>
-    <div class="col-sm-2"></div>
+  <div class="col-sm-2"></div>
   </div>
 </body>
+
 </html>

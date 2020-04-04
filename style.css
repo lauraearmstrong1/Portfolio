@@ -12,8 +12,7 @@ body {
 
 #name {
     font-family: 'Princess Sofia', cursive;
-    font-size: 50px;
-    margin-left: 2rem;
+    font-size: 60px;
 }
 
 .fab {
@@ -21,24 +20,43 @@ body {
 }
 
 #list {
-    font-family: 'Princess Sofia', cursive;
-    color:#292b2c;
-    font-size: 40px;
-    margin-left: 6rem;
+    font-family: 'Kalam', cursive;
+    color: white;
+    font-size: 25px;
 }
 
 .about {
-    border-style: solid;
-    border-color: #292b2c;
     background-color: transparent;
 }
 
 #me {
-    font-family: 'Princess Sofia', cursive;
+    font-family: 'Kalam', cursive;
     color: black;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .btn {
     font-size: 30px;
 }
+
+.pic {
+    width: 18rem;
+    height: auto;
+    border-style: solid;
+    border-color: #292b2c;
+}
+
+.bio {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+}
+
+.portfolio {
+    width: 30rem;
+    height: auto;
+    border-style: solid;
+    border-color: #292b2c;
+}
+

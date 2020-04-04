@@ -3,7 +3,7 @@ html {
     background-size: cover;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -60,3 +60,42 @@ body {
     border-color: #292b2c;
 }
 
+#port-text {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+    color: #292b2c;
+}
+
+.contact-info {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    color: #292b2c;
+}
+
+#contact {
+    font-size: 30px;
+}
+
+#info {
+    font-size: 22px;
+}
+
+.form-control {
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+    color: #292b2c;
+}
+
+.control-label {
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    color: #292b2c;
+}
+
+#submit {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: #292b2c;
+}
